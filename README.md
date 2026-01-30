@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Valsia Skill Mentor – Phase 1 MVP
 
-## Getting Started
+> **An AI-powered skill-to-job conversion engine that helps learners transform scattered skills into clear, employable career paths.**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚩 Problem Statement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Today, students and early professionals learn skills without clarity on:
+- Whether those skills are **market-relevant**
+- Which **job roles** they are actually suited for
+- What **exact steps** are needed to become job-ready
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This results in wasted time, confusion, and poor career decisions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 💡 Solution
 
-To learn more about Next.js, take a look at the following resources:
+**Valsia Skill Mentor** analyzes a user’s existing skills and provides:
+- Best-fit job role recommendations
+- Job-readiness scoring
+- Skill gap identification
+- A clear **30-day execution roadmap**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This repository represents the **Phase-1 MVP prototype** of Valsia, focused solely on the **Skill Mentor module**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🔍 **Skill Analysis Engine**  
+  Evaluates user skills against real-world job requirements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🎯 **Job Role Mapping**  
+  Suggests suitable roles with confidence scoring
+
+- 📉 **Skill Gap Detection**  
+  Identifies missing or weak skills required for target roles
+
+- 🗓 **30-Day Action Roadmap**  
+  Provides a step-by-step plan to move toward employability
+
+- 🕹 **Gamified Dashboard (Prototype)**  
+  XP, levels, journeys, and progress visualization
+
+---
+
+## 🧠 Why It’s Different
+
+- Focuses on **conversion to employability**, not just learning
+- Highlights **skill waste** and irrelevant learning paths
+- Execution-first approach instead of generic recommendations
+- Designed as a **mentor**, not a chatbot
+
+---
+
+## 🏗 High-Level Architecture
+
+```text
+User Input (Skills)
+        ↓
+Skill Evaluation Engine
+        ↓
+Job Role Mapping + Readiness Score
+        ↓
+Skill Gap Analysis
+        ↓
+30-Day Execution Roadmap
