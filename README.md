@@ -55,21 +55,6 @@ This repository represents the **Phase-1 MVP prototype** of Valsia, focused sole
 
 ---
 
-## 🏗 High-Level Architecture
-
-```text
-User Input (Skills)
-        ↓
-Skill Evaluation Engine
-        ↓
-Job Role Mapping + Readiness Score
-        ↓
-Skill Gap Analysis
-        ↓
-30-Day Execution Roadmap
-
-
-
 ## ⚙️ How to Run the Project Locally
 
 This project is designed to run completely on **localhost** using **Docker** and a **local LLaMA-based LLM**.
@@ -223,5 +208,21 @@ PRANDYA SUNDAR
 ## 📄 License
 
 Shared strictly for demonstration and evaluation purposes.
+
+
+
+## 🏗 High-Level Architecture
+
+```text
+User Input (Skills)
+        ↓
+Skill Evaluation Engine
+        ↓
+Job Role Mapping + Readiness Score
+        ↓
+Skill Gap Analysis
+        ↓
+30-Day Execution Roadmap
+
 
 
