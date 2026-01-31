@@ -145,7 +145,7 @@ Skill gap analysis
 This Phase-1 MVP currently runs in a secure local environment using containerized services and local LLM inference.  
 For security and intellectual property reasons, a public deployment is not exposed at this stage.  
 
-This repository focuses on demonstrating product flow, architecture, and core logic.
+This repository focuses on demonstrating product flow, architecture, and core logic of our Educational AI SaaS..
 
 ---
 
